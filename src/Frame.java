@@ -9,5 +9,6 @@ public class Frame extends JFrame {
         this.add(panel);
         this.pack();
         this.setVisible(true);
+        this.setLocationRelativeTo(null);
     }
 }
